@@ -1,13 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        var boxerOne = 78.2;
-        var boxerTwo = 82.7;
+        var totalHours = 640;
+        var workHoursPerEmployee = 8;
 
-        var totalWeight = boxerOne + boxerTwo;
-        System.out.println("Общая масса бойцов: " + totalWeight + " кг");
+        var employees = totalHours / workHoursPerEmployee;
 
-        var weightDivide = boxerTwo % boxerOne;
-        System.out.println("Остаток от деления между массами бойцов: " + weightDivide + " кг");
+        System.out.println("Всего работников в компании - " + employees + " человек");
     }
 }
