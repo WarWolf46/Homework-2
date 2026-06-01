@@ -4,6 +4,6 @@ public class Main {
         var cat = 3.6;
         var paper = 763789;
 
-        System.out.println("Собака = " + dog + "\nКошка = " + cat + "\nБумага = " + paper);
+        System.out.println("Собака = " + (dog + 4) + "\nКошка = " + (cat + 4) + "\nБумага = " + (paper + 4));
     }
 }
