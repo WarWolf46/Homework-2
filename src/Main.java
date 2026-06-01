@@ -6,6 +6,11 @@ public class Main {
 
         var employees = totalHours / workHoursPerEmployee;
 
-        System.out.println("Всего работников в компании - " + employees + " человек");
+        employees = employees + 94;
+
+        var newTotalHours = employees * workHoursPerEmployee;
+
+        System.out.println("Если в компании работает " + employees +
+                " человек, то всего " + newTotalHours + " часа работы может быть поделено между сотрудниками.");
     }
 }
